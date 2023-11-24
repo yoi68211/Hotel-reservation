@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+
+<mapper namespace="com.empmanage.hotel.service.dao.HoteltbDAO">
+
+<select id="viewHotelList" resultType="HoteltbVO">
+		SELECT *
+		FROM hoteltb
+		where region=#{region}
+</select>	 
+
+
+<update id="detailCheck">
+	UPDATE hoteltb 
+	SET renum=#{renum}
+	WHERE hname=#{hname} AND roomsize=#{roomsize} AND price=#{price}
+</update>
+
+
+</mapper>

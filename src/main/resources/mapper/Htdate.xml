@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+
+<mapper namespace="com.empmanage.hotel.service.dao.HtdateDAO">
+
+<insert id="insertDate">
+		INSERT INTO HTdate(renum, email,cin,cout,pep)
+		VALUES (renumAssign.nextval,#{email},to_date(#{cin}),to_date(#{cout}),#{pep})
+</insert>
+
+<select id="getReservationNum" resultType="int">
+	SELECT renum
+	FROM HTdate
+	WHERE email= #{email}
+</select>
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+
+<mapper namespace="com.empmanage.hotel.service.dao.HtloginDAO">
+
+	 
+
+	
+ <select id="getlogin" resultType="HtloginVO">
+		SELECT email, passw , admin
+		FROM HTlogin
+		WHERE email=#{email} and passw=#{passw}
+</select>
+	
+	
+<insert id="hotelJoin">
+		INSERT INTO HTlogin(name, email, passw, tel)
+		VALUES (#{name},#{email},#{passw},#{tel})
+	</insert>
+	
+<delete id="userDelete">
+		DELETE 
+		FROM HTlogin
+		WHERE email=#{email} AND passw=#{passw}
+	</delete>
+
+</mapper>

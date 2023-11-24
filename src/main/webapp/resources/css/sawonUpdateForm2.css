@@ -1,0 +1,239 @@
+@charset "UTF-8";
+header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #F2E2C4;
+    box-shadow: 0px 4px 20px #000000;
+    z-index: 1;
+}
+
+header > div > ul > li  {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 44px;
+    line-height: 58px;
+    text-align: center;
+    font-variation-settings: 'slnt' 0;
+    z-index: 2;
+}
+
+.main-res a{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 156px;
+    top: 46px;
+    color: #fff;
+}
+
+.main-ge a{
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    left: 455px;
+    top: 46px;
+    color: #000000;
+}
+
+.main-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 910px;
+    top: 25px;
+    background: url(img/logo.svg);
+    
+}
+
+.main-resrist a{
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    left: 1184px;
+    top: 46px;
+    color: #000;
+}
+
+.main-login a{
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    left: 1608px;
+    top: 46px;
+    color: #000000;
+}
+
+.top-text {
+    position: absolute;
+    width: 500px;
+    height: 68px;
+    left: 705px;
+    top: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FDC355;
+    font-variation-settings: 'slnt' 0;
+}
+
+.hr {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: -5px;
+    top: 271px;
+    border: 2px solid #666666;
+}
+
+
+.mem {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1500px;
+    height: 80px;
+    left: 200px;
+    top: 446px;
+    background: #E6DFC6;
+    border-top:4px solid #623F31;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #967E5D;
+    font-variation-settings: 'slnt' 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1500px;
+    height: 80px;
+    left: 180px;
+    top: 530px;
+    border-bottom: 4px solid #E6E6E6;
+}
+
+
+input {
+    border: none;
+}
+
+.ch {
+    box-sizing: border-box;
+    position: absolute;
+    width: 950px;
+    height: 80px;
+    left: 484px;
+    top: 750px;
+    background: #FFFFFF;
+    border: 2px solid #F2E2C4;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FDC355;
+    font-variation-settings: 'slnt' 0;
+}
+
+.re {
+    box-sizing: border-box;
+    position: absolute;
+    width: 950px;
+    height: 80px;
+    left: 484px;
+    top: 850px;
+    background: #FFFFFF;
+    border: 2px solid #F2E2C4;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FDC355;
+    font-variation-settings: 'slnt' 0;
+}
+
+
+.del {
+    box-sizing: border-box;
+    position: absolute;
+    width: 950px;
+    height: 80px;
+    left: 484px;
+    top: 950px;
+    background: #FFFFFF;
+    border: 2px solid #F2E2C4;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 755;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FDC355;
+    font-variation-settings: 'slnt' 0;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 1100px;
+    background: #F2E2C4;
+    box-shadow: 0px 4px 20px #000000;
+}
+
+.ch:hover{
+    background-color: #FDC355;
+    color: #FFF;
+}
+
+.del:hover{
+    background-color: #FDC355;
+    color: #FFF;
+}
+
+.re:hover{
+    background-color: #FDC355;
+    color: #FFF;
+}
+
+
+a:hover {
+    color: #FFF;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style:none;
+    }
+

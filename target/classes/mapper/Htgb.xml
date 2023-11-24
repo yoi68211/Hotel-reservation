@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+
+<mapper namespace="com.empmanage.hotel.service.dao.HtgbDAO">
+
+	 <select id="getAllGb" resultType="HtgbVO">
+		SELECT num, tit, name, tda, nayoung, cou
+		FROM htgb
+	</select>
+	
+	<insert id="insertWriting">
+		INSERT INTO HTgb(num,tit,name,tda,nayoung,cou)
+		VALUES (numAssign.nextval,#{tit},#{name},#{tda},#{nayoung},#{cou})
+	</insert>
+
+</mapper>
