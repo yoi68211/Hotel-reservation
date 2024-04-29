@@ -34,7 +34,7 @@
 이 프로젝트는 다음과 같은 기술들을 사용하였습니다:
 
 - **Backend**: Spring Framework, JSP
-- **Frontend**: JavaScript, Html
+- **Frontend**: JavaScript
 - **Database**: SQL Developer
 
 
