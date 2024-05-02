@@ -18,7 +18,7 @@
 
 
 ## 시연 영상
-<img src="복사해온 URL">
+<img src="https://github.com/yoi68211/Hotel-reservation/assets/122337470/90268a6d-ac1f-413c-9150-42ff472dc756.gif">
 
 
 ## 기능
